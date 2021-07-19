@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Faraz Pourafshin</Authors>
+    <Product>VCards Generator</Product>
+    <Description>This is wrap of https://github.com/mixerp/mixerp.net.vcards Project and upgrade to .NET</Description>
+    <Copyright>Faraz Pourafshin</Copyright>
+    <PackageProjectUrl>https://github.com/farazp/VCards</PackageProjectUrl>
+    <PackageLicenseExpression>(LGPL-2.0-only WITH FLTK-exception OR Apache-2.0+)	</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/farazp/VCards.git</RepositoryUrl>
+    <PackageIcon>vcf-open-file-format.png</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>VCard</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\Users\Apachi\Downloads\vcf-open-file-format.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
